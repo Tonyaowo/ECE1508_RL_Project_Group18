@@ -1381,11 +1381,6 @@ from tqdm import tqdm
 
 @torch.no_grad()
 def eval_avg_reward(lm_model, rl_loader, max_batches=None, max_new_tokens=32):
-    """
-    在 rl_loader（比如 rl_test_loader）上计算一个 LM 模型的平均 reward。
-    lm_model: AutoModelForCausalLM（例如 sft_model 或 policy.lm）
-    rl_loader: rl_test_loader（里面是 {"prompts": [...]}）
-    """
     lm_model.eval()
 
     total_R = 0.0
