@@ -4,8 +4,7 @@ Reinforcement Learning from Human Feedback (RLHF-style PPO) using automatic rewa
 based on BLEU, ROUGE-L and semantic similarity.
 
 ---
-
-## 1. Project Overview
+Project Overview
 
 - **Base model**: `distilgpt2` (Hugging Face Transformers)
 - **Dataset**: IMDB (`datasets` library)
@@ -24,15 +23,3 @@ based on BLEU, ROUGE-L and semantic similarity.
 - **Evaluation**:
   - Automatic metrics: BLEU, ROUGE-1/2/L, METEOR, Distinct-1/2, BERTScore
   - Average reward on a held-out test set
-
-## 2. Repository Structure
-├── README.md
-├── requirements.txt
-├── demo.py
-├── notebooks/
-│   └── ECE1508RL-FinalProject.ipynb
-├── models/
-│   ├── sft_model/
-│   └── rlhf_checkpoints_v2/
-├── report/
-│   └── final_report.pdf# ECE1508_RL_Project_Group18
