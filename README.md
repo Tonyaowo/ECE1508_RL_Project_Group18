@@ -25,12 +25,19 @@ Project Overview
   - Average reward on a held-out test set
 
 Repository Structure:
+
 1508_project.ipynb        # Main training notebook (SFT + PPO)
+
 RL_Project.py             # Python script version of PPO training
+
 demo.ipynb                # Example input-output demo
+
 ModelCheckpoint/          # Saved model checkpoints (SFT / PPO)
+
 report.pdf                # Final written report
+
 requirements.txt          # Dependencies
+
 README.md                 # This file
 
 Installation
