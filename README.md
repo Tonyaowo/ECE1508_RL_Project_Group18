@@ -24,14 +24,14 @@ Project Overview
   - Automatic metrics: BLEU, ROUGE-1/2/L, METEOR, Distinct-1/2, BERTScore
   - Average reward on a held-out test set
 
-Repository Structure
-├── 1508_project.ipynb        # Main training notebook (SFT + PPO)
-├── RL_Project.py             # Python script version of PPO training
-├── demo.ipynb                # Example input-output demo
-├── ModelCheckpoint/          # Saved model checkpoints (SFT / PPO)
-├── report.pdf                # Final written report
-├── requirements.txt          # Dependencies
-└── README.md                 # This file
+Repository Structure:
+1508_project.ipynb        # Main training notebook (SFT + PPO)
+RL_Project.py             # Python script version of PPO training
+demo.ipynb                # Example input-output demo
+ModelCheckpoint/          # Saved model checkpoints (SFT / PPO)
+report.pdf                # Final written report
+requirements.txt          # Dependencies
+README.md                 # This file
 
 Installation
 1. Clone the repository
