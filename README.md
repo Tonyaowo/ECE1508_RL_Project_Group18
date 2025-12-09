@@ -38,7 +38,7 @@ Repository Structure:
 
 6.requirements.txt          # Dependencies
 
-7.README.md                 # This file
+7.README.md                 
 
 Installation
 1. Clone the repository
